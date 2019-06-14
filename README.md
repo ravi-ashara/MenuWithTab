@@ -10,19 +10,17 @@ Menu with Tab is ionic 3 Project
 
  [ionic](https://ionicframework.com/docs/v3/intro/installation/)
 
-
-## ADD ANDROID PLATFORM
-
-```
-ionic cordova platform add android
-```
-
 ## OPEN PROJECT ON BROWSER
 
 ```
 ionic serve
 ```
 
+## ADD ANDROID PLATFORM
+
+```
+ionic cordova platform add android
+```
 
 ## BUILD ANDROID PLATFORM
 
@@ -35,7 +33,6 @@ ionic cordova build android
 ```
 ionic cordova run android
 ```
-
 
 ## How to use
 
