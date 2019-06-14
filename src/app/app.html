@@ -1,0 +1,29 @@
+<ion-menu [content]="content" class="menu">
+        <ion-header color="danger">
+          <ion-toolbar text-center>
+            <img src="../assets/imgs/logo.png" class="user_Menulogo" />
+            <div class="userName"><strong>Ravi Ashara</strong></div>
+          </ion-toolbar>
+        </ion-header>
+        <ion-content color="danger">
+          <ion-list no-lines>
+            <button ion-item end color="danger">
+              Home <ion-icon name="home" float-right margin-right></ion-icon>
+            </button>
+            <button ion-item color="danger">
+              About <ion-icon name="custom-about-icon" float-right margin-right></ion-icon>
+            </button>
+            <button ion-item color="danger">
+              Contact <ion-icon name="md-contact" float-right margin-right></ion-icon>
+            </button>
+            <button ion-item color="danger">
+              Setting <ion-icon name="md-settings" float-right margin-right></ion-icon>
+            </button>
+          </ion-list>
+        </ion-content>
+        <ion-footer text-center padding-vertical class="setFootercolor">
+            Version 1.0.0
+        </ion-footer>
+      </ion-menu>
+        
+<ion-nav [root]="rootPage" #content></ion-nav>

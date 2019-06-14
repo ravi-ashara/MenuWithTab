@@ -1,0 +1,55 @@
+/** Menu CSS Start */
+.menu{
+    .item-inner{
+        background-image: none !important;
+        padding-right: 0 !important;
+    }
+    .scroll-content{
+        overflow: hidden !important;
+    }
+    .toolbar-background{
+        background: map-get($colors,danger) !important;
+        border:none !important;
+        color: map-get($colors, white_color) !important;
+    }
+    .user_Menulogo{
+        border-radius: 50%;
+        width:100px;
+        height:100px;
+        padding:5px;
+        border: 1px solid map-get($colors, white_color); 
+    }
+    .userName{
+        color: map-get($colors, white_color) !important;
+        font-size: 2rem;
+        padding-top:10px;
+    }
+    .header::after{
+        background-image:none !important;
+    }
+    .content {
+        background: map-get($colors, danger) !important;
+        font-size: 1.5rem;
+    }
+    .setFootercolor{
+        color: map-get($colors, white_color) !important;
+    }
+}
+/** Menu CSS End */
+
+/** Custom Icon CSS Start*/
+ion-icon {
+    &[class*="custom-"] {
+        mask-size: contain;
+        mask-position: 50% 50%;
+        mask-repeat: no-repeat;
+        background: currentColor;
+        width: 0.9em;
+        height: 0.9em;
+    }
+    &[class*="custom-about-icon"] {
+        mask-image: url(../assets/imgs/custom-icon/about.png);
+    }
+}
+
+/** Custom Icon CSS End*/
