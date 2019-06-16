@@ -10,6 +10,11 @@ Menu with Tab is ionic 3 Project
 
  [ionic](https://ionicframework.com/docs/v3/intro/installation/)
 
+## SCREEN SHOTS
+
+<img src="src/assets/screenshots/Menu.png" width="225"/>&nbsp;
+<img src="src/assets/screenshots/Tab.png" width="225"/>
+
 ## OPEN PROJECT ON BROWSER
 
 ```
