@@ -1,5 +1,7 @@
 {
-  "name": "demoAPP",
-  "integrations": {},
+  "name": "MenuTab",
+  "integrations": {
+    "cordova": {}
+  },
   "type": "ionic-angular"
 }
